@@ -1,5 +1,20 @@
-````markdown
-# SARS-CoV-2 Primer–Deletion Nearest Coordinate Finder
+```markdown
+# 🧬 SARS-CoV-2 Primer–Deletion Nearest Coordinate Finder
+
+```
+
+---
+
+/ ****|                    (*)           | |
+\| (***  \_ \_\_   \_\_\_ \_ \_\_ \_\_\_  \_ \_ \_\_   \_\_ *| |* \_\_\_
+\_\_\_ | '\_ \ / \_ \ '\_ ` _ \| | '_ \ / _` | **/ \_&#x20;
+****) | |*) |  \_\_/ | | | | | | | | | (*| | ||  **/
+|****\_/| .**/ \_**|*| |*| |*|*|*| |*|\_*,*|\_\_\_**|
+\| |
+|\_|
+Nearest Primer–Deletion Coordinate Finder
+
+````
 
 ## About
 This is a Python script I wrote to help match SARS-CoV-2 deletion coordinates with the closest primer positions from an ARTIC primer BED file.  
@@ -77,13 +92,11 @@ This was for a project where we might need it for a publication. I wanted it to 
 
 ---
 
-## License
-
-MIT License
-
 ## Contact
 
 If you have questions or want me to change something, just let me know.
 
 ```
+
+Do you want me to also make a **shorter, one-line GitHub repo description** that matches this student vibe for when people see your repo on the search page?
 ```
