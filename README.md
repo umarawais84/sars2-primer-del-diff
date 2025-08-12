@@ -1,4 +1,3 @@
-````markdown
 # 🧬 SARS-CoV-2 Primer–Deletion Nearest Coordinate Finder
 
 ## About
