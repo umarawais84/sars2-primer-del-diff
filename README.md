@@ -1,25 +1,26 @@
 # SARS-CoV-2 Primer–Deletion Nearest Coordinate Finder
 
-**Description:** Matches SARS-CoV-2 deletion coordinates to the nearest primer *start* or *end* from a BED file. Outputs signed distances (positive = primer after deletion coord; negative = primer before). Pure Python (no external deps). Suitable for analysis and publication pipelines.
+## About
+This is a Python script I wrote to help match SARS-CoV-2 deletion coordinates with the closest primer positions from an ARTIC primer BED file.  
+It tells you if the closest primer is before or after the deletion, and by how many bases. No extra Python packages are needed—just run it with regular Python.
 
 ---
 
-## Contents
-- `primer_del_match.py` – main script (no external imports)
-- `SARS-CoV-2.primer-artic_4.1.bed` – primer BED (cols: chrom, **start**, **end**, …)
-- `all_del_var_9.csv` – deletions table (includes **Start**, **End**)
-- `headers.csv` (optional) – output header names
-- `README.md` – this file
+## Files in this repo
+- `primer_del_match.py` → the main script
+- `SARS-CoV-2.primer-artic_4.1.bed` → primer coordinates (col 2 = start, col 3 = end)
+- `all_del_var_9.csv` → deletions list (has Start and End columns)
+- `headers.csv` (optional) → lets you rename output columns
+- `README.md` → this file
 
 ---
 
-## Quick Start
+## How to Run It
 
-### Requirements
-- Python 3.8+ (standard library only)
+**Requirements:**
+- Python 3 (I used 3.9, but any 3.8+ should work)
+- No installs needed
 
-### Run
+**Basic command:**
 ```bash
 python primer_del_match.py SARS-CoV-2.primer-artic_4.1.bed all_del_var_9.csv results.csv
-# With custom headers:
-python primer_del_match.py SARS-CoV-2.primer-artic_4.1.bed all_del_var_9.csv results.csv --headers headers.csv
