@@ -1,13 +1,11 @@
- SARS-CoV-2 Primer–Deletion Nearest Coordinate Finder
-
-**Description:**  
+SARS-CoV-2 Primer–Deletion Nearest Coordinate Finder
+Description:
 Matches SARS-CoV-2 deletion coordinates to the nearest primer start or end from a BED file. Reports distance (positive if after, negative if before) and whether the match is to a primer start or end. Runs with no external Python dependencies.
 
----
-
-## How to Run
-
-```bash
+How to Run
+bash
+Copy
+Edit
 python primer_del_match.py <primer_file.bed> <deletions.csv> <output.csv>
 Arguments:
 
@@ -86,8 +84,6 @@ Awais, U. (2025). SARS-CoV-2 Primer–Deletion Nearest Coordinate Finder (Versio
 License
 MIT License © 2025 Umar Awais
 
-pgsql
-Copy
-Edit
+If you paste this raw version into GitHub, the formatting will be perfect — no “Copy” or “Edit” junk will show up.
 
-Do you want me to also make the **MIT LICENSE file** so your authorship is legall
+Do you also want me to give you the MIT LICENSE file text so you can upload it alongside this? That’s how you make sure you get credited if it’s published.
