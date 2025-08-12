@@ -80,9 +80,3 @@ This was for a project where we might need it for a publication. I wanted it to 
 ## Contact
 
 If you have questions or want me to change something, just let me know.
-
-```
-
-If you want, I can add a **fun ASCII-style project header** to make it look even more like a student-coded project.  
-Do you want me to add that at the top?
-```
